@@ -1,0 +1,95 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0; /* Light gray */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation menu */
+header {
+    background-color: #333; /* Dark gray */
+    color: #fff; /* White text */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.screenshot img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; /* Adjust the width as needed */
+}
+
+.screenshot {
+    text-align: center;
+}
+
+.screenshot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.screenshot {
+    flex: 0 0 calc(30% - 20px); /* Adjust width as needed */
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style sections with a white background and padding */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Style headings and paragraphs */
+h1 {
+    color: #333; /* Dark gray text */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #555; /* Slightly lighter gray text */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666; /* Even lighter gray text */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add more custom styles below as needed */
